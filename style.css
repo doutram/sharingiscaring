@@ -1,0 +1,1054 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    
+    color: #F2EDE4;
+    font-size: 20pt;
+    background-color: #332a2a;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+h1, h2, h3, h4, h5, b, a
+{
+    font-weight: 700;
+}
+
+.serif
+{
+    font-family: 'Neuton', serif;
+}
+
+/* FLEX */
+
+.centredH
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.centredV
+{
+    display: flex;
+    align-items: center;
+}
+
+/* */
+
+.title-long-live-southbank {
+    font-size: 12pt;
+    color: #fff;
+}
+
+.header {
+    background-image: url(london-perspective.jpg);
+    background-attachment: fixed;
+    padding: 100px 0 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.poo {
+    maring-left: 33%;
+    margin-right: 33%;
+}
+
+.section1 {
+    background-image: url(photo-1445102451117-84e2b4f715c6.jpg);
+    background-attachment: fixed;
+    padding: 100px 0 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+    box-shadow:1000px rgba(0, 0, 0, 1.5);
+   
+
+}
+
+.text {
+    background-image: ;
+    background-attachment: fixed;
+    padding: 100px 0 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section2 {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin-left: -55px;
+}
+
+@-webkit-keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+
+@-moz-keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+
+@keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+
+.scroll-btn {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+/*SCROLL DOWN START*/
+
+.scroll-btn > * {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #ff6563;
+    color: #ff6563;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+    color: #ff6563;
+}
+
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.scroll-btn .mouse {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 55px;
+    margin: 0 auto 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    border-radius: 21px;
+    margin-top: 1370%;
+}
+
+.scroll-btn .mouse > * {
+    position: absolute;
+    display: block;
+    top: 29%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-animation: ani-mouse 2.5s linear infinite;
+    -moz-animation: ani-mouse 2.5s linear infinite;
+    animation: ani-mouse 2.5s linear infinite;
+}
+
+
+/*SCROLL DOWN ENDS HERE */
+
+
+/*welcome animation starts here */
+
+svg {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#Big_Hand {
+    animation: spin 2s infinite linear;
+    transform-origin: 100% 100%;
+}
+
+#Small_Hand {
+    animation: spin 24s infinite linear;
+    transform-origin: 0% 100%;
+}
+
+#Wheel {
+    animation: spin 7s infinite linear;
+    transform-origin: 50% 50%;
+}
+
+#Water {
+    animation: wave 9s infinite linear;
+}
+
+#london {}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wave {
+    from,
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translate3d(-10px, 0, 0);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+.welcome-animation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -300px;
+}
+
+.scroll-down {
+    margin-bottom: 0px;
+    color: #ff6563;
+}
+
+#title {
+/*    margin: -3%;
+    margin-left: 41.7%;
+    margin-top: 2%;
+    color: #fff;*/
+/*    font-family: 'Neuton', serif;*/
+}
+
+#about-us {
+    color: #F2EDE4;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 45pt;
+    margin-top: 20%;
+    margin-left: 17%;
+    margin-right: 65%;
+    margin-bottom: -3%;
+    line-height: 0.8;
+    text-align: center;
+    width: 20em;
+}
+
+.DEMO {
+    color: #E0D5B2;
+    font-size: 34pt;
+    text-align: center;
+    margin-top: -42;
+    padding-top: 0;
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+
+#about-1 {
+    color: #F2EDE4;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 45pt;
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+    line-height: 0.8;
+    text-align: center;
+}
+
+.paragraph-one {
+    color: white;
+    width: 55em;
+}
+
+#bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thats-one-every-two-years {
+    color: #F2EDE4;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 45pt;
+    margin-top: -3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 0.8;
+    text-align: center;
+}
+
+
+/*before and after slider starts here*/
+
+
+/*ends here*/
+
+.col-1 {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 14%;
+    margin-bottom: -10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.col-2 {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 14%;
+    margin-bottom: 9%;
+}
+.col-11 {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 14%;
+    margin-bottom: -10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.col-21 {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 14%;
+    margin-bottom: 9%;
+}
+
+#colomn-one {
+    width: 950px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: center;
+}
+
+#colomn-two {
+    width: 950px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: center;
+}
+
+#colomn-three {
+    width: 400px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: center;
+}
+#colomn-one1 {
+    width: 400px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: center;
+    color:#fff;
+    line-height: 1.1;
+}
+
+#colomn-two1 {
+    width: 400px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: center;
+     line-height: 1.1;
+}
+
+#colomn-three1 {
+    width: 400px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: center;
+     line-height: 1.1;
+}
+#about-us1 {
+    color: #F2EDE4;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 45pt;
+    margin-top: 20%;
+    margin-left: 14%;
+    margin-right: 65%;
+    margin-bottom: -3%;
+    line-height: 0.8;
+    text-align: center;
+    width: 600px;
+}
+
+#army {
+    margin-left: 34%;
+    text-align: center;
+    width: 10em;
+    color: #E0D5B2;
+}
+
+#question {
+    color: #332a2b;
+    margin-left: 200px;
+    font-size: 55pt;
+    text-align: center;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.thumb1 {
+    width: 540px;
+    height: 360px;
+    margin: 70px auto;
+    perspective: 1000px;
+}
+
+.thumb1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(after.jpg);
+    background-size: 0, cover;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.thumb1:hover a {
+    transform: rotateX(80deg);
+    transform-origin: bottom;
+}
+
+.thumb1 a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: inherit;
+    background-size: cover, cover;
+    background-position: bottom;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+.thumb1 a span {
+    font-family: 'Kreon', serif;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    font: bold 12px/36px "Open Sans";
+    text-align: center;
+    transform: rotateX(-89.99deg);
+    transform-origin: top;
+    z-index: 1;
+}
+
+.thumb1 a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    opacity: 0.15;
+    transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+    transform-origin: bottom;
+}
+
+.thumb1:hover a:before {
+    opacity: 1;
+    box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+    transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+.thumb {
+    width: 540px;
+    height: 360px;
+    margin: 70px auto;
+    perspective: 1000px;
+}
+
+.thumb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(before%20copy.jpg);
+    background-size: 0, cover;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.thumb:hover a {
+    transform: rotateX(80deg);
+    transform-origin: bottom;
+}
+
+.thumb a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: inherit;
+    background-size: cover, cover;
+    background-position: bottom;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+.thumb a span {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    font: bold 12px/36px "Open Sans";
+    text-align: center;
+    transform: rotateX(-89.99deg);
+    transform-origin: top;
+    z-index: 1;
+}
+.showcase {
+ transform: skewY(4deg);
+z-index: 10;
+}
+.thumb a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    opacity: 0.15;
+    transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+    transform-origin: bottom;
+}
+
+.thumb:hover a:before {
+    opacity: 1;
+    box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+    transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+.left {
+    float: left;
+    width: 50%;
+    background-color: white;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    background-color: white;
+}
+
+.at {
+    color: #7BB0A6;
+    ;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: ;
+    margin-left: 199px;
+    text-align: left;
+    font-size: 99pt;
+    margin-left: -43%;
+    margin-top: -95%;
+}
+
+.new-background {
+    background-image: url(The-Shard-2-1100x614.jpg);
+    background-attachment: fixed;
+    background: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#SOUTHBANKs {
+    margin-top: 85%;
+    margin-left: 27%;
+    width: 15em;
+    text-align: center;
+    line-height: 0.9;
+    color: #E0D5B2;
+
+        
+}
+
+#section4 {
+    min-height: 200vh;
+   
+}
+
+.southbank-demo {
+    background-image: url('section4-background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 180vh;
+    margin-bottom: -20%;
+    margin-top:-5%;
+}
+
+#south-logo {
+    margin-top: 50%;
+    margin-left: 37%;
+    margin-bottom: 25%;
+}
+
+
+/*DIAGONAL STARTS HERE*/
+
+.diagonal {
+    overflow: hidden;
+    position: relative;
+    transform: skewY(4deg);
+    z-index: 1;
+}
+
+.diagonal2 {
+    overflow: hidden;
+    position: relative;
+    transform: skewY(4deg);
+    z-index: 1;
+    margin-top: 40%;
+}
+
+.diagonal .background {
+    background-color: #F8F8F8;
+    background-position: 0 0;
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    transform: skewY(-4deg);
+}
+
+.diagonal2 .background {
+    background-color: #F8F8F8;
+    background-position: 0 0;
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    transform: skewY(-4deg);
+}
+
+.diagonal .content {
+    position: relative;
+    z-index: 1;
+    transform: skewY(-4deg);
+}
+
+.diagonal2 .content {
+    position: relative;
+    z-index: 1;
+    transform: skewY(-4deg);
+}
+
+#about-us2 {
+    color: #87766C;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+    margin-top: 6%;
+    margin-left: 18%;
+    margin-right: 60%;
+    margin-bottom: -7%;
+    line-height: 0.5;
+    text-align: center;
+    width: 20em;
+}
+
+#about-us3 {
+    color: #87766C;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-bottom: -5%;
+    line-height: 0.5;
+    text-align: center;
+    width: 20em;
+}
+
+.DEMO2 {
+    color: #E0D5B2;
+    font-size: 80pt;
+    text-align: center;
+    margin-top: -38;
+    padding-top: 0;
+    line-height: 0.8;
+}
+
+.DEMO3 {
+    color: #DBCCAD;
+    font-size: 80pt;
+    text-align: center;
+    margin-top: -62;
+    padding-top: 0;
+    line-height: 0.8;
+}
+
+.thats-one-every-two-years2 {
+    color: #87766C;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+    margin-top: -8%;
+    margin-left: 39%;
+    margin-right: 25%;
+    margin-bottom: -4%;
+    line-height: 0.8;
+    text-align: center;
+    width: 7em;
+}
+
+.thats-one-every-two-years3 {
+    color: #87766C;
+/*    font-family: 'Neuton', serif;*/
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+    margin-top: -5%;
+    margin-left: 49%;
+    margin-right: 25%;
+    margin-bottom: -4%;
+    line-height: 0.8;
+    text-align: center;
+    width: 7em;
+}
+
+.how-did-they-do-it {
+    margin-left: 36%;
+    margin-top: 5%;
+    margin-bottom: -10%;
+    width: 6em;
+    font-size: 60pt;
+    text-align: center;
+    line-height: 1.5;
+}
+.how-did-they-do-it1 {
+    margin-left: 36%;
+    margin-top: 5%;
+    margin-bottom: -10%;
+    width: 6em;
+    font-size: 60pt;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+    margin-top: -15%;
+}
+
+div.clouds {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: -15%;
+}
+
+div.clouds video,
+div.clouds object,
+div.clouds embed {
+    /*width: 100%;*/
+    width: 2000px;
+    height: auto;
+    min-width: 720px;
+    margin: 0 auto;
+    z-index: 0;
+    margin: -top: -15%;
+}
+
+.demolished-section {
+    background-image: url(photo-1463343725265-49d3702f2fa9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 450vh;
+    box-shadow: 0px 10000px rgba(0, 0, 0, 0.3) inset;
+}
+
+.demolished-section-content {
+    display: flex;
+    padding-top: 60%;
+}
+
+.section-title-one {
+    font-size: 50pt;
+    text-transform: uppercase;
+    width: 9em;
+    line-height: 0.8;
+    margin-left: 3%;
+}
+.section-title-two {
+    font-size: 50pt;
+    text-transform: uppercase;
+    width: 9em;
+    line-height: 0.8;
+    margin-left: 3%;
+    margin-top: 70vh;
+}
+.building-list {
+    text-align: right;
+    font-size: 30pt;
+    width: 16em;
+    margin-left: 19%;
+    margin-top: 6%;
+    list-style-type: none;
+    line-height: 0.9;
+    
+}
+
+/*button start*/
+#building-list-button {
+border: 2px solid white;
+border-spacing: 12px;  
+width: 9em;    
+color:#fff;
+text-decoration: none;
+margin-left: 40%;  
+margin-top: 9%;
+text-transform: uppercase;    
+padding: 10px;  
+}
+#building-list-button:hover {
+    
+transition: .7s;    
+ box-shadow: 0px 10000px rgba(0, 0, 0, 0.4) inset;    
+}
+.image-gallery {
+margin-left:200%; 
+margin-right: -160%;   
+margin-top: -145%;    
+}
+.potition-link {
+color :white;    
+text-decoration: none;    
+display: flex;
+border: 2px solid white;
+border-spacing:  12px;
+padding: 10px; 
+padding-top: 60px; 
+padding-bottom: -30px;        
+margin: 10px;
+margin-left: -190px;     
+height: 180px;    
+text-align: center;  
+transition:.7s;    
+}
+.potition-link:hover {  
+transition:.7s;    
+background-image: url(Strand_Office_External_View.jpg) ;
+ box-shadow: 0px 10000px rgba(0, 0, 0, 0.4) inset;    
+display: flex;
+border: 2px solid white;
+border-spacing:  12px;
+padding: 10px; 
+padding-top: 60px; 
+padding-bottom: -30px;        
+margin: 10px;
+margin-left: -190px;     
+height: 180px;    
+text-align: center;    
+}
+.potition-link2 {  
+    color :white;    
+text-decoration: none; 
+display: flex;
+border: 2px solid white;
+border-spacing:  12px;
+padding: 10px; 
+padding-top: 80px; 
+padding-bottom: -15px;    
+margin: 10x;
+height: 180px;  
+margin-left: -190px; 
+margin-right: 10px;    
+text-align: center;    
+}
+.potition-link2:hover {  
+transition: .7s;  
+background-image: url(Kensington-Odeon.jpg) ;   
+box-shadow: 0px 10000px rgba(0, 0, 0, 0.4) inset;     
+display: flex;
+border: 2px solid white;
+border-spacing:  12px;
+padding: 10px; 
+padding-top: 80px; 
+padding-bottom: -15px;    
+margin: 10x;
+height: 180px;  
+margin-left: -190px;     
+text-align: center;    
+}
+.potition-link3 {
+    color :white;    
+text-decoration: none; 
+display: flex;
+border: 2px solid white;
+border-spacing:  12px;
+padding: 10px; 
+padding-top: 20px;    
+margin: 10px;
+margin-left: -190px;     
+height: 180px;    
+text-align: center;    
+}
+.potition-link3:hover {
+transition: .7s;    
+background-image: url(Marlborough-School.jpg) ;
+ box-shadow: 0px 10000px rgba(0, 0, 0, 0.4) inset;
+    
+display: flex;
+border: 2px solid white;
+border-spacing:  12px;
+padding: 10px; 
+padding-top: 20px;    
+margin: 10px;
+margin-left: -190px;     
+height: 180px;    
+text-align: center;    
+}
+.section {
+background-color: black;
+}
+.start-your-own-title {
+text-transform:uppercase;
+font-size:65pt;    
+padding-top: 50%;
+display: flex;
+justify-content:center;    
+    
+}
+.start-your-own-title2 {
+text-transform:uppercase;
+font-size:65pt;    
+padding-top: 100%;
+display: flex;
+justify-content:flex-end;  
+    
+    
+}
+.heres-how{
+display: flex;
+justify-content:center;    
+box-shadow: 0px 10000px rgba(0, 0, 0, 0.2) inset;    
+background-image:url(photo-1445102451117-84e2b4f715c6.jpg);
+background-attachment: fixed;
+background-size: cover;
+min-height: 500vh;
+margin: 0;  
+margin-top: -10%;    
+}
+
+.footer {    
+    
+ background-image: url(photo-1463343725265-49d3702f2fa9.jpg);
+    background-attachment: fixed;
+    background-size: cover;    
+    
+min-height: 10vh;
+margin-top: -80px; 
+margin-bottom: -80px;     
+box-shadow: 0px 10000px rgba(0, 0, 0, 0.8) inset; 
+    
+    
+}
+.personal-logo {
+    color:black;
+    margin-top: 40px;
+    margin-left: 44%;
+    margin-bottom: 1%;
+
+    width: 220px;
+}

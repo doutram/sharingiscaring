@@ -1,0 +1,60 @@
+<hmtl>
+<head>
+<title>Darren</title>
+      <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="animate%20(1).css">
+</head>
+<body>
+    <section class="logo">
+        <img class="logo_one" class="animated hinge" src="LOGO.png" ></img>
+        <div class="animate">
+                    <h1 class="animated infinite hinge">WELCOME</h1>
+        </div>
+    </section>
+    <section class="content">
+    <h1>THIS IS A H1 TITLE.</h1>
+        <H2>THIS IS A H2 TITLE.</H2>
+        <P>THIS IS THE FIRST PARAGRAPH.</P>
+        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+    </section>
+    <section id="one" class="full"></section>
+    <section id="two" class="full"></section>
+    <section class="content">
+    <H1>THIS IS A H1 TITLE</H1>
+        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+    </section>
+    <section></section>
+    <div class="uno">
+    <section class="link">
+    Download <a href="https://www.google.com/drive/download/">Google Drive</a>
+    </section>
+    <section class="form">  
+        
+        <div class="one">
+  <form action="//twitter.us12.list-manage.com/subscribe/post?u=43efbdeecd252c30b1ead06d0&amp;id=ab4c4ec792" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+          <div class="two">
+              <label for="mce-EMAIL">Your Email Address </label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"placeholder="Type Email Here.">
+          </div>
+          <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+          </div> 
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_43efbdeecd252c30b1ead06d0_ab4c4ec792" tabindex="-1" value="">
+      </div>
+      <div class="three">
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div>
+    </div>
+  </form>
+  </div>
+</section>
+    </div>
+</body>
+</hmtl>
