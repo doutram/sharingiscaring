@@ -1,2 +1,0 @@
-# sharingiscaring
-sharing is caring
